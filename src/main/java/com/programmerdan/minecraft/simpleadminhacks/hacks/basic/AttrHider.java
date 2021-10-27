@@ -174,7 +174,7 @@ public final class AttrHider extends BasicHack {
 						// this follows 1.16.5 PlayerTabOverlay#renderPingIcon()
 						if (latency < 0) latency = -1;
 						else if (latency < 150) latency = 75; // average of 0 and 150, arbitrary
-						else if (latency < 300) latency = 175;
+						else if (latency < 300) latency = 225;
 						else if (latency < 600) latency = 450;
 						else if (latency < 1000) latency = 800;
 						else latency = 1000;
